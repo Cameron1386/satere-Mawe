@@ -3,8 +3,15 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
-
+.title {
+    margin-top: 5em;
+    border-top: solid gray 1px;
+    padding-left: 15em;
+    padding-right: 15em;
+}
 .text {
     max-width: 700px;
     display: flex;
@@ -16,20 +23,28 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
     padding-bottom: 5vmin;
-   min-width: 98vw;
-   background-color: gainsboro;
+   min-width: 100vw;
+   align-items: center;
 }
 .header {
     display: flex;
     font-family: Montserrat;
    font-size: 24px;
+   background-color: gray;
+   position: fixed;
+   min-width: 100vw;
+   max-width: 100vw;
+   padding: 10px;
+   border-radius: 8px;
+   text-indent: 10em;
+   box-shadow: 0 1px 5px 0px black;
+   
 }
 
 .top {
     display: flex;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 
@@ -38,15 +53,13 @@ img {
     display: flex;
     border-radius: 8px;
 }
-.image {
-    display: flex;
-    margin: auto;
-}
+
 
 .container-mid {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: auto;
-    padding: 20px;
+    padding: 50px;
+    border-bottom: solid gray 5px;
 }
