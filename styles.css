@@ -11,6 +11,13 @@ body {
     border-top: solid gray 1px;
     padding-left: 15em;
     padding-right: 15em;
+    font-family: Montserrat;
+    font-weight: 1000;
+}
+
+.ph1 {
+    padding-top: 10px;
+    color: gray;
 }
 .text {
     max-width: 700px;
